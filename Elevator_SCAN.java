@@ -27,9 +27,7 @@ public class Elevator_SCAN {
 		q1.addAll(Arrays.asList(95,180,34,119,11,123,62,64));
 		int currentHead = 50; 
         int tail = 199;
-        int minSeekTime=Integer.MAX_VALUE;
-        int newTrack=50;//points element to be visited next
-        //for sorting the queue
+    
         List<Integer> li = new ArrayList<Integer>(q1);
         Collections.sort(li);
         q1.clear(); //deleting unsorted elements from the queue
